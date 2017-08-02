@@ -330,6 +330,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* -------------------------Mixin Clearfix------------------------- */
+/* -------------------------Mixin Media Queries------------------------- */
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
@@ -367,7 +369,7 @@ table {
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: #000;
+    background-color: #fff;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;
@@ -404,9 +406,36 @@ table {
     transform: rotate(-90deg);
     transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #222; }
+
+/* center elements on page */
+.wrapper {
+  display: flex;
+  justify-content: center; }
+
+h1,
+h2,
+h3 {
+  font-family: "Comfortaa", cursive;
+  font-weight: normal;
+  color: #fff; }
+
+p {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff; }
+
 .site-header {
-  background-color: red;
-  display: flex; }
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid #fff; }
+
+.hamburger-inner {
+  color: #fff; }
 
 .main-nav {
   display: flex; }
@@ -418,10 +447,14 @@ table {
     padding-left: 30px; }
   .main-nav a {
     text-decoration: none;
-    color: black; }
+    color: #fff; }
 
 .site-footer {
-  background-color: pink;
-  display: flex; }
+  background-color: #222;
+  border-top: 5px solid #fff;
+  display: flex;
+  justify-content: space-around; }
+  .site-footer a {
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

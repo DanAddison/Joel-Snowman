@@ -1,4 +1,10 @@
 .site-footer {
-    background-color: pink;
+    background-color: #222;
+    border-top: 5px solid #fff;
     display: flex;
+    justify-content: space-around;
+
+    a {
+        color: #fff;
+    }
 }

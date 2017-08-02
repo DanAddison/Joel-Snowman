@@ -1,0 +1,37 @@
+/* -------------------------Mixin Clearfix------------------------- */
+
+@mixin clearfix {
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+}
+
+/* -------------------------Mixin Media Queries------------------------- */
+
+@mixin mq($media-min) {
+
+  @media screen and (min-width: $media-min) {
+      @content;
+  }
+}
+
+@mixin mq-max($media-max, $IE9: false) {
+
+  @media screen and (max-width: $media-max - .0625em) {
+      @content;
+  }
+}
+
+
+@mixin mq-min-max($media-min, $media-max, $IE9: false) {
+
+  @media screen and (min-width: $media-min) and (max-width: $media-max - .0625em)  {
+      @content;
+  }
+   @media screen and (min-width: $media-min) and (max-width: $media-max - .0625em) {
+      @content;
+  }
+}
