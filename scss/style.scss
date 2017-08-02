@@ -1,0 +1,7 @@
+// scss file which will be compiled to one style.css file. Consists only of imported partials. Put the global things first in the cascading heirarchy
+
+@import 'normalize';
+@import '../hamburgers/hamburgers';
+@import 'site-header';
+@import 'main-nav';
+@import 'site-footer';

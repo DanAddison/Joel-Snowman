@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Joel Snowman</title>
+        <link rel="stylesheet" href="css/style.css";>
+
+        <script src="js/jquery-2.1.0.min.js"></script>
+
+        <script>
+            jQuery(document).ready( function($) {
+                var $hamburger = $(".hamburger");
+                $hamburger.on("click", function(e) {
+                    $hamburger.toggleClass("is-active");
+                    $('body').toggleClass('is-active-menu');
+                // Do something else, like open/close menu
+                });
+            });
+        </script>
+    </head>
+
+
+    <body>
+
+        <header class="site-header">
+
+            <div class="logo">
+                <h1>Joel Snowman</h1>
+            </div>
+
+            <button class="hamburger hamburger--squeeze" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="">work</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div class="container">
+            <h1>Content goes here, vimeo embeds, thumbnails</h1>
+
+
+
+        </div>
+
+        <footer>
+
+            <div class="site-footer">
+                <p class="copyright">&copy Joel Snowman 2017</p>
+                <p class="credit">Website: <a href="http://www.danaddison.co.uk">Dan Addison</a></p>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>
