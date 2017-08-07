@@ -369,7 +369,7 @@ table {
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: #fff;
+    background-color: #000;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;
@@ -410,51 +410,80 @@ table {
   box-sizing: border-box; }
 
 body {
-  background-color: #222; }
+  background-color: #fff; }
 
 /* center elements on page */
 .wrapper {
-  display: flex;
-  justify-content: center; }
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto; }
 
 h1,
 h2,
 h3 {
-  font-family: "Comfortaa", cursive;
-  font-weight: normal;
-  color: #fff; }
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  color: #000; }
 
 p {
-  font-family: "Ubuntu", sans-serif;
-  color: #fff; }
+  font-family: "Lato", sans-serif;
+  color: #000; }
 
 .site-header {
-  background-color: #222;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
-  border-bottom: 5px solid #fff; }
+  align-items: flex-end; }
 
-.hamburger-inner {
-  color: #fff; }
+.logo h1 {
+  margin-bottom: 16px; }
 
 .main-nav {
-  display: flex; }
-  .main-nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none; }
-  .main-nav li {
-    padding-left: 30px; }
-  .main-nav a {
-    text-decoration: none;
-    color: #fff; }
+  display: none; }
 
+@media screen and (min-width: 600px) {
+  .hamburger {
+    display: none; }
+
+  .main-nav {
+    display: flex; }
+    .main-nav ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none; }
+    .main-nav li {
+      padding-left: 30px; }
+    .main-nav a {
+      font-family: "Oswald", sans-serif;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #000; } }
+.responsive-image {
+  max-width: 100%; }
+
+.cell {
+  margin: .5rem;
+  width: calc(50% - 1rem); }
+  .cell .image {
+    display: block; }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5rem; }
+
+/***********MEDIA QUERIES*************/
+@media screen and (min-width: 800px) {
+  .cell {
+    width: calc(33.3333% - 1rem); } }
 .site-footer {
-  background-color: #222;
-  border-top: 5px solid #fff;
+  background-color: #fff;
   display: flex;
   justify-content: space-around; }
   .site-footer a {
-    color: #fff; }
+    color: #000; }
 
 /*# sourceMappingURL=style.css.map */

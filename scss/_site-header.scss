@@ -1,10 +1,9 @@
 .site-header {
-    background-color: #222;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 5px solid #fff;
-}
-
-.hamburger-inner {
-    color: #fff;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }

@@ -1,0 +1,27 @@
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell {
+  margin: .5rem;
+  width: calc(50% - 1rem);
+
+  .image {
+  display: block;
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+
+/***********MEDIA QUERIES*************/
+
+@media screen and (min-width: 800px) {
+  .cell {
+    width: calc(33.3333% - 1rem);
+  }
+}
