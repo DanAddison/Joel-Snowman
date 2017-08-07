@@ -438,6 +438,8 @@ p {
   justify-content: space-between;
   align-items: flex-end; }
 
+.logo a {
+  text-decoration: none; }
 .logo h1 {
   margin-bottom: 16px; }
 
@@ -480,10 +482,25 @@ p {
   .cell {
     width: calc(33.3333% - 1rem); } }
 .site-footer {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-around; }
-  .site-footer a {
-    color: #000; }
+  display: block;
+  text-align: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  .site-footer .footer-icons {
+    margin-top: 16px;
+    margin-bottom: -3px; }
+  .site-footer .credit a {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 1px 4px;
+    border-radius: 2px; }
+
+@media screen and (min-width: 600px) {
+  .site-footer {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between; } }
 
 /*# sourceMappingURL=style.css.map */
