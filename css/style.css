@@ -464,8 +464,8 @@ p {
       text-decoration: none;
       color: #000; } }
 .video-responsive {
-  margin-top: 1rem;
-  margin-bottom: 4rem;
+  margin-top: 30px;
+  margin-bottom: 40px;
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
@@ -505,21 +505,30 @@ p {
   margin: 2rem 1rem 3rem; }
 
 .portrait img {
+  width: 450px;
   max-width: 100%;
   height: auto; }
 
-.bio a {
-  color: #fff;
-  background-color: #000;
-  text-decoration: none;
-  padding: 1px 4px;
-  border-radius: 2px; }
+.bio {
+  text-align: left;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto; }
+  .bio a {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 1px 4px;
+    border-radius: 2px; }
 
 /***********MEDIA QUERIES*************/
 @media screen and (min-width: 900px) {
+  .wrapper {
+    width: 85%;
+    max-width: 1000px; }
+
   .contact {
-    display: inline;
-    height: 100%; }
+    display: inline; }
     .contact:after {
       content: "";
       display: table;
@@ -533,8 +542,9 @@ p {
   .bio {
     float: right;
     width: 50%;
-    padding: 0 1rem;
-    text-align: left; } }
+    padding: 1rem;
+    text-align: left;
+    min-height: 75vh; } }
 .site-footer {
   display: block;
   text-align: center;

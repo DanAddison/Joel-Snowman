@@ -6,11 +6,16 @@
 }
 
 .portrait img {
+  width: 450px;
   max-width: 100%;
   height: auto;
 }
 
 .bio {
+  text-align: left;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 
   a {
       color: #fff;
@@ -26,9 +31,13 @@
 
 @media screen and (min-width: 900px) {
 
+  .wrapper {
+    width: 85%;
+    max-width: 1000px;
+  }
+
   .contact {
     display: inline;
-    height: 100%;
 
     @include clearfix;
   }
@@ -42,8 +51,9 @@
   .bio {
     float: right;
     width: 50%;
-    padding: 0 1rem;
+    padding: 1rem;
     text-align: left;
+    min-height: 75vh;
   }
 
 
