@@ -1,18 +1,25 @@
 
 .contact {
   display: block;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  text-align: center;
+  margin: 2rem 1rem 3rem;
 }
 
-.bio a {
-    color: #fff;
-    background-color: #000;
-    text-decoration: none;
-    padding: 1px 4px;
-    border-radius: 2px;
+.portrait img {
+  max-width: 100%;
+  height: auto;
 }
 
+.bio {
+
+  a {
+      color: #fff;
+      background-color: #000;
+      text-decoration: none;
+      padding: 1px 4px;
+      border-radius: 2px;
+  }
+}
 
 
 /***********MEDIA QUERIES*************/
@@ -21,6 +28,7 @@
 
   .contact {
     display: inline;
+    height: 100%;
 
     @include clearfix;
   }
@@ -28,13 +36,14 @@
   .portrait img {
     float: left;
     width: 50%;
-    padding: 0 1rem;
+    padding: 2rem 1rem 3rem;
   }
 
   .bio {
     float: right;
     width: 50%;
     padding: 0 1rem;
+    text-align: left;
   }
 
 
