@@ -1,22 +1,29 @@
-.responsive-image {
-  max-width: 100%;
-}
 
-.grid {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 4rem;
 }
 
-.cell {
+.thumb {
   margin: .5rem;
   width: calc(50% - 1rem);
+
+  .responsive-image {
+    max-width: 100%;
+  }
 }
+
+
+
+
 
 /***********MEDIA QUERIES*************/
 
 @media screen and (min-width: 800px) {
-  .cell {
+  .thumb {
     width: calc(33.3333% - 1rem);
   }
+
+
 }

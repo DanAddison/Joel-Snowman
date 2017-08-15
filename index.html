@@ -11,8 +11,8 @@
 
     <script src="js/jquery-2.1.0.min.js"></script>
 
-    <link href="/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
-    <script src="/fancybox/dist/jquery.fancybox.min.js"></script>
+    <link href="fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+    <script src="fancybox/dist/jquery.fancybox.min.js"></script>
 
     <script>
       jQuery(document).ready( function($) {
@@ -22,6 +22,13 @@
           $('body').toggleClass('is-active-menu');
         // Do something else, like open/close menu
         });
+        $("[data-fancybox]").fancybox({
+          slideShow : false,
+          thumbs : false,
+          loop : true,
+          infobar : true,
+          autoSize: true
+      	});
       });
     </script>
   </head>
@@ -51,39 +58,45 @@
     </header>
 
     <div class="wrapper">
+
       <!-- featured video -->
       <div class="video-responsive">
         <iframe src="https://player.vimeo.com/video/204973607" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
 
-      <!-- fancyBox gallery -->
-
-
       <!-- screenshot thumbnail grid -->
-      <div class="grid">
-        <div class="cell">
-          <a data-fancybox href="https://vimeo.com/220524723">
-            <iframe src="https://player.vimeo.com/video/220524723" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <div class="gallery">
+        <div class="thumb">
+          <a title="Big Loooooove" data-fancybox="group" href="https://vimeo.com/220524723">
+          	<img src="img/EatMePlay.jpg" class="responsive-image">
           </a>
         </div>
-        <div class="cell">
-          <img src="img/EuroGulls.jpg" class="responsive-image">
+        <div class="thumb">
+          <a data-fancybox="group" href="https://vimeo.com/146186332">
+            <img src="img/EuroGulls.jpg" class="responsive-image">
+          </a>
         </div>
-        <div class="cell">
-          <img src="img/JoelWarren.jpg" class="responsive-image">
+        <div class="thumb">
+          <a data-fancybox="group" href="https://vimeo.com/204969533">
+            <img src="img/JoelWarren.jpg" class="responsive-image">
+          </a>
         </div>
-        <div class="cell">
-          <img src="img/SkateCam.jpg" class="responsive-image">
+        <div class="thumb">
+          <a data-fancybox="group" href="https://vimeo.com/180752047">
+            <img src="img/SkateCam.jpg" class="responsive-image">
+          </a>
         </div>
-        <div class="cell">
-          <img src="img/BKingz.jpg" class="responsive-image">
+        <div class="thumb">
+          <a data-fancybox="group" href="https://vimeo.com/184798328">
+            <img src="img/BKingz.jpg" class="responsive-image">
+          </a>
         </div>
-        <div class="cell">
-          <img src="img/Spuds.jpg" class="responsive-image">
+        <div class="thumb">
+          <a data-fancybox="group" href="https://vimeo.com/126572647">
+            <img src="img/Spuds.jpg" class="responsive-image">
+          </a>
         </div>
       </div>
-
-    </div>
 
     <footer>
 

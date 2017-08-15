@@ -464,7 +464,7 @@ p {
       text-decoration: none;
       color: #000; } }
 .video-responsive {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 40px;
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -481,21 +481,20 @@ p {
   width: 100%;
   position: absolute; }
 
-.responsive-image {
-  max-width: 100%; }
-
-.grid {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 4rem; }
 
-.cell {
+.thumb {
   margin: .5rem;
   width: calc(50% - 1rem); }
+  .thumb .responsive-image {
+    max-width: 100%; }
 
 /***********MEDIA QUERIES*************/
 @media screen and (min-width: 800px) {
-  .cell {
+  .thumb {
     width: calc(33.3333% - 1rem); } }
 .contact {
   display: block;
