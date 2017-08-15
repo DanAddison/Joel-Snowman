@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@fancyapps/fancybox",
+        "scope": "@fancyapps",
+        "escapedName": "@fancyapps%2ffancybox",
+        "name": "@fancyapps/fancybox",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/danieladdison"
+    ]
+  ],
+  "_from": "@fancyapps/fancybox@latest",
+  "_id": "@fancyapps/fancybox@3.1.20",
+  "_inCache": true,
+  "_location": "/@fancyapps/fancybox",
+  "_nodeVersion": "6.10.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fancybox-3.1.20.tgz_1496937276676_0.6961817224510014"
+  },
+  "_npmUser": {
+    "name": "janis",
+    "email": "info@fancyapps.com"
+  },
+  "_npmVersion": "4.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@fancyapps/fancybox",
+    "scope": "@fancyapps",
+    "escapedName": "@fancyapps%2ffancybox",
+    "name": "@fancyapps/fancybox",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@fancyapps/fancybox/-/fancybox-3.1.20.tgz",
+  "_shasum": "9dbf1b0e2212950144d736e21fe894a52e51d250",
+  "_shrinkwrap": null,
+  "_spec": "@fancyapps/fancybox",
+  "_where": "/Users/danieladdison",
+  "author": {
+    "name": "fancyApps"
+  },
+  "bugs": {
+    "url": "https://github.com/fancyapps/fancybox/issues"
+  },
+  "dependencies": {},
+  "description": "Touch enabled, responsive and fully customizable jQuery lightbox script",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-header": "^1.8.8",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.4"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dist": {
+    "shasum": "9dbf1b0e2212950144d736e21fe894a52e51d250",
+    "tarball": "https://registry.npmjs.org/@fancyapps/fancybox/-/fancybox-3.1.20.tgz"
+  },
+  "gitHead": "3607c5562130ff4eb4ced258e30de6613dc7c2c1",
+  "homepage": "http://fancyapps.com/fancybox/",
+  "keywords": [
+    "touch",
+    "responsive",
+    "lightbox",
+    "fancybox",
+    "gallery",
+    "jQuery",
+    "plugin"
+  ],
+  "license": "GPL-3.0",
+  "main": "./dist/jquery.fancybox.min.js",
+  "maintainers": [
+    {
+      "name": "janis",
+      "email": "info@fancyapps.com"
+    }
+  ],
+  "name": "@fancyapps/fancybox",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "jquery": ">=1.9.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancyapps/fancybox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.1.20"
+}

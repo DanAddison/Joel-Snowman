@@ -484,16 +484,14 @@ p {
 .responsive-image {
   max-width: 100%; }
 
-.cell {
-  margin: .5rem;
-  width: calc(50% - 1rem); }
-  .cell .image {
-    display: block; }
-
 .grid {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 4rem; }
+
+.cell {
+  margin: .5rem;
+  width: calc(50% - 1rem); }
 
 /***********MEDIA QUERIES*************/
 @media screen and (min-width: 800px) {
