@@ -468,7 +468,7 @@ p {
       color: #000; } }
 .video-responsive {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
@@ -489,6 +489,10 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 3rem; }
+  .video-caption h3 {
+    margin-bottom: 0; }
+  .video-caption p {
+    margin-top: 5px; }
 
 .gallery {
   display: flex;
@@ -500,6 +504,13 @@ p {
   width: calc(50% - 1rem); }
   .thumb .responsive-image {
     max-width: 100%; }
+  .thumb h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0 3px; }
+  .thumb p {
+    margin-top: 5px;
+    padding: 0 3px; }
 
 /***********MEDIA QUERIES*************/
 @media screen and (min-width: 800px) {
