@@ -493,7 +493,7 @@ p {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 4rem; }
+  margin-bottom: 4.5rem; }
 
 .thumb {
   margin: .5rem;
@@ -508,7 +508,7 @@ p {
 .contact {
   display: block;
   text-align: center;
-  margin: 2rem 1rem 3rem; }
+  margin: 2rem 1rem 3.5rem; }
 
 .portrait img {
   width: 450px;
@@ -552,14 +552,17 @@ p {
     text-align: left;
     min-height: calc(100vh - 175px); } }
 .site-footer {
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  max-width: 90%;
+  max-width: 95%;
   margin-left: auto;
   margin-right: auto; }
   .site-footer .footer-icons {
     margin-top: 16px;
     margin-bottom: -3px; }
+  .site-footer .copyright {
+    margin-bottom: 0; }
   .site-footer .credit a {
     color: #fff;
     background-color: #000;
@@ -567,11 +570,13 @@ p {
     padding: 1px 4px;
     border-radius: 2px; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 550px) {
   .site-footer {
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between; } }
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90%; }
+    .site-footer .copyright {
+      order: -1; } }
 .fancybox-enabled {
   overflow: hidden; }
 
