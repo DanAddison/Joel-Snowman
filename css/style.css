@@ -421,7 +421,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Oswald", sans-serif;
   font-weight: lighter;
   color: #000; }
