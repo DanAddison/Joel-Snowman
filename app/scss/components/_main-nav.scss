@@ -1,15 +1,15 @@
-.main-nav {
-  display: none;
-}
+// .main-nav {
+//   display: none;
+// }
 
 .hamburger {
   padding-bottom: 20px;
   outline: none;
 }
 
-@media screen and (min-width: 600px) {
+// @media screen and (min-width: 600px) {
 
-  .hamburger {
+  .hamburger.hamburger--squeeze {
     display: none;
   }
 
@@ -29,10 +29,10 @@
 
     a {
       font-family: $headerFont;
-      font-size: 1.5rem;
+      font-size: 1.25em;
       text-decoration: none;
       color: #000;
     }
   }
 
-}
+// }
