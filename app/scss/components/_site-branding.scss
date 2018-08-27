@@ -2,11 +2,16 @@
 
   a {
     text-decoration: none;
-  }
 
+  }
+  
   h1 {
     font-family: $headerFont;
     font-size: 1.5em;
     margin-bottom: 13px;
+    
+    &:hover {
+      background-color: $color__action;
+    }
   }
 }
