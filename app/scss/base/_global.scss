@@ -2,18 +2,17 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   background-color: #fff;
-  max-width: $max-width;
-  margin: 0 auto;
 }
 
+.hidden {
+  display: none;
+}
 
 /* center elements on page */
 .wrapper {
-  width: 95%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
