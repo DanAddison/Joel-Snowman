@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://joelsnowman.com">
-    <img alt="logo of whiskey tumbler with ice cubes" src="images/Rotunda.jpg" width="400" />
+    <img alt="still image from Whiskey Lemonade" src="app/images/Rotunda.jpg" width="400" />
   </a>
 </p>
 <h1 align="center">
